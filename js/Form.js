@@ -65,7 +65,7 @@ class Form {
           // }
 
       // })
-      } else if(this.input.value() === "" && this.button.mousePressed) {
+      } else if(this.input.value() === " " || this.input.value() === "  " || this.input.value() === null && this.button.mousePressed) {
         td = loadImage('images/tds.jpg');
         // this.confession.html("Dear " + player.name + " Sir/Mam");
         // this.confession.font('Viner Hand ITC')
